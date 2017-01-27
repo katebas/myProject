@@ -11,7 +11,7 @@ gulp.task('stylus', function(){
 		.pipe(prefix({
 			browsers: ['last 10 versions']
 		}))
-		.pipe(gulp.dest('./css'))
+		.pipe(gulp.dest('./css/'))
 		.pipe(connect.reload());
 });
 
